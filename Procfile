@@ -1,1 +1,1 @@
-web: node index.js
+web: node 15-game.js
