@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Puzzle Game</title>
+    <style>
+        html, body {
+            font-family: 'Verdana', sans-serif;
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        #game-container {
+            display: block;
+            text-align: center;
+        }
+
+        #bottom-text {
+            font-size: 0.8em;
+            margin-top: 10px;
+            color: white;
+        }
+        h2 {
+            font-weight: 300; /* Or any desired value, the default is usually 400 for normal, and 700 for bold */
+            /* ... other styles ... */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Game of the 15</h2>
+
+    <!-- Placeholder for the Phaser game canvas -->
+    <div id="phaser-game"></div>
+
+    <div id="bottom-text">
+        <a href="https://github.com/basedryo">https://github.com/basedryo</a>
+    </div>
+
+    <!-- Phaser3 library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js"></script>
+    <!-- Your 15-board.js file -->
+    <script type="module" src="15-board.js"></script>
+    <!-- Your game logic script -->
+    <script type="module" src="15-game.js"></script>
+</body>
+
+</html>
