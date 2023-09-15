@@ -1,5 +1,6 @@
 import Board from './15-board.js';
 
+window.location.href = 'index.html';
 const TILE_SIZE = 64;  // Assuming each tile is 64x64 pixels
 const BOARD_SIZE = 4;
 const TILE_SPACING = 2;  // space of 5 pixels between tiles
