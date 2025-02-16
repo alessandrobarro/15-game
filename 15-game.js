@@ -112,8 +112,8 @@ class MainScene extends Phaser.Scene {
 
 const config = {
     type: Phaser.AUTO,
-    width: TILE_SIZE * BOARD_SIZE,
-    height: TILE_SIZE * BOARD_SIZE,
+    width: 1920, //TILE_SIZE * BOARD_SIZE,
+    height: 1080, //TILE_SIZE * BOARD_SIZE,
     parent: 'phaser-game',
     scene: [MainScene]
 };
